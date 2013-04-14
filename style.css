@@ -1,0 +1,65 @@
+/*
+Theme Name: Easter Blue
+Theme URI: http://pure-essence.net/2013/03/26/customized-twenty-twelve-easter-blue/
+Author: Ying Zhang
+Author URI: http://regretless.com/
+Description: Easter Blue builds off of Twenty Twelve, so you get all of the goodness of a WordPress core theme included.
+Version: 1.0.0
+Tags: light, blue, gray, two-column, right-sidebar, flexible-width, threaded-comments, sticky-post, post-formats
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+template: twentytwelve
+*/
+
+@import url('../twentytwelve/style.css');
+
+/* customized by pure-essence.net */
+html body,
+html body.custom-background {
+    background-color: #0C2C52;
+    background-image: url(images/bk4.png), url(images/bk3.png), url(images/bk4.png), url(images/headerBk.png), url(images/bk2.png);
+    background-repeat: no-repeat, repeat-y, repeat-y, no-repeat, repeat-y;
+    background-position: 813px -65px, 980px 37px, 813px -65px, 495px -40px, -200px top;
+    padding: 0;
+}
+body #page {
+    opacity:.9;
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-left: 0;
+    background: url(images/headerBk.png) right -50px no-repeat #fff;
+}
+body #main {
+    background: url(images/dottedBk.png) 97% top repeat-y;
+    overflow: hidden;
+	padding-right: 5em;
+}
+body #site-generator,
+body #colophon {
+    margin-top: 10px;
+    margin-right: 3%;
+    border-top: 0;
+    background: url(images/dottedBk2.png) right top repeat-x;
+}
+body .main-navigation ul.nav-menu, 
+body .main-navigation div.nav-menu > ul {
+    border-top: 1px solid #3C8F97;
+    border-bottom: 1px solid #3C8F97;
+}
+body article.sticky .featured-post {
+    border-top: 4px double #113E73;
+    border-bottom: 4px double #113E73;
+}
+body .site-content article {
+    border-bottom: 4px double #3C8F97;
+}
+body #access {
+    background: linear-gradient(#49958D, #113E73) repeat scroll 0 0 transparent
+}
+body input[type="text"], 
+body input[type="password"], 
+body input[type="email"], 
+body input[type="url"], 
+body input[type="number"] {
+    border: 1px solid #378590;
+}
