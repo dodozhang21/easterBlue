@@ -13,7 +13,7 @@ visit http://pure-essence.net/2013/03/26/customized-twenty-twelve-easter-blue/
  Licenses:
 --------------------------------------------------------------------------------
 Easter Blue is a child theme of Twenty Twelve
-Twenty Twelve is is licensed under the GPL.
+Twenty Twelve is licensed under the GPL.
 
 == Bundled Resources: Images ==
 
